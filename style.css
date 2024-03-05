@@ -149,6 +149,41 @@ button {
   }
 }
 
+.call-to-action-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+
+.call-to-action-box {
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 15px 90px;
+  border-radius: 8px;
+  display: flex;
+  gap: 90px;
+  max-width: 900px;
+}
+
+.call-to-action-box button {
+  border: 1px solid #f9faf8;
+}
+
+.action-subtext {
+  font-size: 12px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  height: 10vh;
+  color: #f9faf8;
+  gap: 20px;
+}
+
 /* Fonts */
 
 .roboto-thin {
